@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Etb_xor_imp
+Z0 w1709892439
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z4 dC:/Users/Tarik/Documents/Elektrotehnika/Hardware Design
+Z5 8C:\Users\Tarik\Documents\Elektrotehnika\Hardware Design\tb_xor.vhd
+Z6 FC:\Users\Tarik\Documents\Elektrotehnika\Hardware Design\tb_xor.vhd
+l0
+L5 1
+VGAagTNmKQAJ0AJ6aIBWHG0
+!s100 H^zc2:6mZ]>F@e?S5WlZc3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1709892467
+!i10b 1
+Z9 !s108 1709892467.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Tarik\Documents\Elektrotehnika\Hardware Design\tb_xor.vhd|
+Z11 !s107 C:\Users\Tarik\Documents\Elektrotehnika\Hardware Design\tb_xor.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+R3
+Z14 DEx4 work 10 tb_xor_imp 0 22 GAagTNmKQAJ0AJ6aIBWHG0
+!i122 2
+l22
+Z15 L9 34
+VbWDT`icn1BF>7JV[:cTmb0
+!s100 ^:NU:<7aRHPH3hzWFnRHz2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Exor_imp
+Z16 w1709890482
+R1
+R2
+R3
+!i122 0
+R4
+Z17 8C:\Users\Tarik\Documents\Elektrotehnika\Hardware Design\xor.vhd
+Z18 FC:\Users\Tarik\Documents\Elektrotehnika\Hardware Design\xor.vhd
+l0
+L5 1
+V]H`<bHH:<0m=g^oS]<Hj02
+!s100 N[:Y5Af5elPI1>]@Y9:SB2
+R7
+32
+Z19 !s110 1709890485
+!i10b 1
+Z20 !s108 1709890485.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Tarik\Documents\Elektrotehnika\Hardware Design\xor.vhd|
+Z22 !s107 C:\Users\Tarik\Documents\Elektrotehnika\Hardware Design\xor.vhd|
+!i113 1
+R12
+R13
+Aarch
+R1
+R2
+R3
+DEx4 work 7 xor_imp 0 22 ]H`<bHH:<0m=g^oS]<Hj02
+!i122 0
+l13
+L12 4
+VlM_9XF8ch1dBZJj;`RWEa1
+!s100 6o`2Q[WP82Kl:2S>VdQ^[0
+R7
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R12
+R13
