@@ -1,0 +1,67 @@
+# Compile of xor.vhd failed with 1 errors.
+# Compile of xor.vhd was successful.
+# Compile of tb_xor.vhd failed with 1 errors.
+# Compile of tb_xor.vhd failed with 1 errors.
+# Compile of tb_xor.vhd was successful.
+vsim -gui work.tb_xor_imp
+# vsim -gui work.tb_xor_imp 
+# Start time: 11:04:00 on Mar 08,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_xor_imp(arch)
+# Loading work.xor_imp(arch)
+add wave -position insertpoint  \
+sim:/tb_xor_imp/s_a \
+sim:/tb_xor_imp/s_b \
+sim:/tb_xor_imp/s_c
+run
+run
+run
+run
+run
+run
+run
+# Break key hit
+# Break key hit
+# Break key hit
+run
+run
+run
+run
+run
+quit -sim
+# End time: 11:07:38 on Mar 08,2024, Elapsed time: 0:03:38
+# Errors: 0, Warnings: 11
+# Compile of tb_xor.vhd was successful.
+vsim -gui work.tb_xor_imp
+# vsim -gui work.tb_xor_imp 
+# Start time: 11:08:20 on Mar 08,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_xor_imp(arch)
+# Loading work.xor_imp(arch)
+add wave -position insertpoint  \
+sim:/tb_xor_imp/s_a \
+sim:/tb_xor_imp/s_b \
+sim:/tb_xor_imp/s_c
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 11:09:18 on Mar 08,2024, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 2

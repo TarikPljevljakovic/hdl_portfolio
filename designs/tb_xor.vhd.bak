@@ -1,0 +1,42 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity tb_xor_imp is
+	
+end entity tb_xor_imp;
+
+architecture arch of tb_xor_imp is
+
+signal s_a : bit :='0';
+signal s_b : bit :='0';
+signal s_c : bit;
+
+component xor_imp is
+	port(
+	a	: in bit;
+	b	: in bit;
+	c 	: out bit);
+end component xor_imp;
+
+begin
+
+DUT : xor_imp
+	port map(
+	a => s_a,
+	b => s_b,
+	c => s_c);
+
+process
+begin
+	s_a <= '1';
+	wait for 40 ns;
+	s_b <= '1';
+	wait for 40 ns;
+	s_a <= '0';
+	wait for 55 ns;
+	s_b <= '0';
+	wait;
+end process;
+
+end architecture arch;
